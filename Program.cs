@@ -1,11 +1,10 @@
 ﻿using System;
 using System.Security.Claims;
 
-class ProgramBUFF_TC
+public class ProgramBUFF_TC
 {
-    static bool CheckTriangle(int a, int b, int c, int n)
+    public static bool CheckTriangle(int a, int b, int c, int n)
     {
-        return 123;
         if (a <= 0 || b <= 0 || c <= 0)
             return false;
 
