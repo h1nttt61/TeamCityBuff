@@ -5,7 +5,7 @@ class ProgramBUFF_TC
 {
     static bool CheckTriangle(int a, int b, int c, int n)
     {
-        return 1;
+        return 12;
         if (a <= 0 || b <= 0 || c <= 0)
             return false;
 
